@@ -24,6 +24,16 @@ export class InicioPage implements OnInit {
       icon:"notifications-outline",
       name:"ALERT PAGE",
       redirectTo:"/alert",
+    },
+    {
+      icon:"beer-outline",
+      name:"ACCORDION PAGE",
+      redirectTo:"/accordion",
+    },
+    {
+      icon:"body-outline",
+      name:"BADGE PAGE",
+      redirectTo:"/badge",
     }
   ];
   constructor() { }

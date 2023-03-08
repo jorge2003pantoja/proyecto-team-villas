@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'action',
     loadChildren: () => import('./pages/action-shif/action-shif.module').then( m => m.ActionShifPageModule)
   },
+  {
+    path: 'accordion',
+    loadChildren: () => import('./pages/accordion/accordion.module').then( m => m.AccordionPageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  },
 ];
 
 @NgModule({
